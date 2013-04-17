@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description = "Webservice para o sistema imobiliário http://www.sgn.com.br"
   s.authors     = ["Marcelo Jacobus"]
   s.email       = 'marcelo.jacobus@gmail.com'
-  s.files       = ["lib/svg.rb"]
+  s.files       = ["lib/sgn.rb"]
   s.homepage    = "https://github.com/mjacobus/sgn"
 
   # s.add_development_dependency "active_support"
