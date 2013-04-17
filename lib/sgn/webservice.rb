@@ -4,7 +4,6 @@ require 'json'
 
 module Sgn
   class Webservice
-
     WS_HOST = 'www.sgn.com.br'
     WS_BASE = '/webservice/'
 
@@ -30,7 +29,9 @@ module Sgn
         query_string = ::Addressable::URI.new(query_values: params).query
         uri = [klass::WS_BASE, service, '.php?', query_string].join()
         response = Net::HTTP.get_response(klass::WS_HOST, uri)
-        JSON.parse(response.body)
+        json = JSON.parse(response.body)
+        raise Error.new(json['msg']) if json['erro']
+        json
       end
 
   end

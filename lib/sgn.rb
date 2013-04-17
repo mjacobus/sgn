@@ -1,3 +1,5 @@
+require 'sgn/webservice'
+require 'sgn/error'
+
 module Sgn
-  autoload :Webservice, 'sgn/webservice'
 end
