@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.description   = "Webservice para o sistema imobiliário http://www.sgn.com.br"
   s.authors       = ["Marcelo Jacobus"]
   s.email         = 'marcelo.jacobus@gmail.com'
+  s.license       = 'MIT'
 
   s.files         = [
     "README.md",
