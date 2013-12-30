@@ -1,5 +1,24 @@
 # Sgn
 
+[![Build Status](https://travis-ci.org/mjacobus/sgn.png?branch=master)](https://travis-ci.org/mjacobus/sgn)
+[![Coverage Status](https://coveralls.io/repos/mjacobus/sgn/badge.png)](https://coveralls.io/r/mjacobus/sgn)
+[![Code Climate](https://codeclimate.com/github/mjacobus/sgn.png)](https://codeclimate.com/github/mjacobus/sgn)
+[![Dependency Status](https://gemnasium.com/mjacobus/sgn.png)](https://gemnasium.com/mjacobus/sgn)
+[![Gem Version](https://badge.fury.io/rb/sgn.png)](http://badge.fury.io/rb/sgn)
+
+## Instalation
+
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'sgn'
+```
+
+And then execute:
+
+    $ bundle
+
+
 ## Instalation
 ```ruby
 gem install sgn
@@ -61,4 +80,14 @@ ws.get('busca_imoveis2', { 'itenspp' => 1 })
 ```
 
 ## Author
-Marcelo Jacobus
+- [Marcelo Jacobus](https://github.com/mjacobus)
+
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+**Do not forget to write tests**
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request

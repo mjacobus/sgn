@@ -4,6 +4,11 @@ SimpleCov.start do
   add_filter "spec"
 end
 
+if ENV['TRAVIS']
+  require 'coveralls'
+  Coveralls.wear!('rails')
+end
+
 require 'sgn'
 
 Dir["./spec/support/**/*.rb"].each {|f| require f}
